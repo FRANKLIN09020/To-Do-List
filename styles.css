@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Lobster&family=Poppins:wght@200;300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'popins',Arial, Helvetica, sans-serif;
+}
+body{
+    background-color:cyan;
+}
+
+.container{
+    height: 500px;
+    background-color:gray;
+    text-align: center;
+    border-radius: 30px;
+}
+#h2{
+    padding: 30px;
+    color: white;
+}
+#add{
+   
+    padding: 5px 40px;
+    border-radius:20px ;
+    margin: 4px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: none;   
+    color: #102770;
+    background-color: #ffeba7;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+input{
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 30px;
+    height: 2.5em;
+    width: 250px;
+    padding-left: 10px;
+
+}
+input:active{
+    border: none;
+}
+p{
+
+    margin-left:190px ;
+    width: 50%;
+    padding-top: 5px;
+    font-weight: bolder;
+    font-size: 20px;
+   
+}
+p:hover{
+cursor: pointer;
+}
